@@ -2,7 +2,7 @@
 
 - Make sure to run npm install
 
-- Environmental variables defined in env.yaml, so create a env.yaml that looks like this...
+- Environmental variables defined in env.yaml, so create a env.yaml that looks like this... (You can also just rename the template.env.yaml to env.yaml)
 
 ```yaml
 development:
@@ -20,8 +20,8 @@ production:
 
 ## Commands
 
-```npm run dev``` run dev server look for env.yaml for environmental variables
+`npm run dev` run dev server look for env.yaml for environmental variables
 
-```npm run start``` run in production more, not look for env.yaml
+`npm run start` run in production more, not look for env.yaml
 
 MAKE SURE TO JOIN THE SLACK AND DISCORD COMMUNITIES AT DEVNURSERY.COM
