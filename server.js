@@ -7,7 +7,7 @@ const {
   SECRET = "secret",
   NODE_ENV = "development",
 } = process.env;
-console.log(PORT);
+
 
 //MONGO CONNECTION
 const mongoose = require("./DB/conn");
