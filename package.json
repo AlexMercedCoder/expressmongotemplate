@@ -12,9 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
     "cross-env": "^7.0.2",
+    "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
+    "mercedlogger": "^1.0.1",
     "mongoose": "^5.10.7",
     "morgan": "^1.10.0",
     "yenv": "^2.1.1"

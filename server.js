@@ -26,6 +26,7 @@ const app = express();
 
 //OTHER IMPORTS
 const morgan = require("morgan");
+const {log} = require("mercedlogger")
 
 ////////////
 //MIDDLEWARE
@@ -54,5 +55,5 @@ app.get("/testjwt", (req, res) => {
 
 //LISTENER
 app.listen(PORT, () => {
-  console.log(`Your are listening on port ${PORT}`);
+  log.green("Server Start",`Your are listening on port ${PORT}`);
 });
